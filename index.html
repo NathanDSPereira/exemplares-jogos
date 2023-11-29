@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Projeto 1 JavaScript</title>
+</head>
+<body class="body">
+    <section class="section-background">
+        <img class="img-fundo" alt="" id="background-fundo">
+    </section>
+
+    <main class="main">
+
+        <section class="section-perfil">
+            <ul class="lista-perfis">
+                <li class="perfil selecionado" id="nioh" data-description="Domine a arte fatal dos samurais controlando um guerreiro Yokai que é meio humano e meio sobrenatural na continuação desafiadora desse RPG de ação.Explore o violento Japão do período Sengoku e o Reino Sombrio mortal, ambos repletos de demônios grotescos e implacáveis. Empunhe suas armas mortais e dilacere todos os inimigos que cruzarem seu caminho."><img src="./src/imagens/nioh-perfil-imagem.png" alt="desenho samurai fofo" class="img-perfil"></li>
+
+                <li class="perfil" id="uncharted" data-description="A trama de Uncharted 4 é muito similar a de outros capítulos da série. Dessa vez, Drake parte em uma nova aventura para ajudar seu irmão, Sam, a recuperar um tesouro para que possa quitar uma dívida. Entretanto, mesmo com a ajuda de seu velho amigo, Sulivan, será preciso agir sorrateiramente para que sua esposa Elena não descubra, uma vez que o próprio Nathan havia prometido se aposentar da carreira de explorador."><img src="./src/imagens/uncharted-perfil-imagem.jpg" alt="Nathan Drake imagem em miniatura" class="img-perfil"></li>
+
+                <li class="perfil" id="resident" data-description="Resident Evil 4 Remake é uma versão refeita do aclamado clássico de 2005 desenvolvido pela produtora Capcom. O game acompanha o protagonista Leon S. Kennedy em uma missão de resgate à filha do Presidente dos Estados Unidos, Ashley, enquanto enfrenta novos vírus e ameaças em um vilarejo no interior da Espanha"><img src="./src/imagens/R4-perfil-imagem.jpg" alt="Foto do Leon" class="img-perfil"></li>
+
+                <li class="perfil" id="god" data-description="God of War: Ragnarök traz a mais nova aventura de Kratos, o Deus da Guerra, e seu filho, Atreus, tentando impedir o fim dos Nove Reinos, que tem relação com deuses e entidades da mitologia nórdica"><img src="./src/imagens/God-of-War-perfil-imagem.png" alt="Foto do Kratos em miniatura" class="img-perfil"></li>
+
+                <li class="perfil" id="fifa" data-description="O EA SPORTS™ FIFA 23 coloca o maior jogo do mundo em campo, com torneios da Copa do Mundo FIFA™ de futebol masculino e feminino, adição de clubes femininos e novas formas de jogar os seus modos favoritos."><img src="./src/imagens/fifa-perfil-imagem-2.jpg" alt="Foto do jogo Fifa 2023" class="img-perfil"></li>
+            </ul>
+        </section>
+
+        <section class="section-informacoes">
+            <div class="div-container-img-titulo">
+                <img class="img-title" id="img-title">
+            </div>
+
+            <div class="div-container-descricao">
+                <p id="descricao-jogo-selecionado"></p>
+
+                <div class="div-container-botao-trailer">
+                    <button class="botao-trailer">Veja o trailer</button>
+                </div>
+            </div>
+        </section>
+        
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" frameborder="1" title="Trailer Oficial" allow="accelerometer; clipboard-write; encrypted-media; autop       lay; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+@media (max-width: 1360px) {
+
+    .section-background, .img-fundo {
+        width: 100%;
+    }
+    
+    .section-informacoes {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1120px) {
+
+    .body {
+        overflow-y: scroll;
+    }
+
+    .section-background {
+        top: 0;
+    }
+    
+    .section-background::before, .section-background::after {
+        height: 100%;
+    }
+
+    .section-background::before {
+        width: 101%;
+    }
+
+    .section-background::after {
+        width: 15%;
+    }
+
+    .img-fundo {
+        height: auto;
+        width: 100%;
+    }
+    
+    .main {
+        flex-direction: column-reverse;
+
+        max-width: 430px;
+        max-height: 100%;
+        margin: 0 auto;
+    }
+
+    .section-perfil {
+        padding-top: 70px;
+    }
+
+    .lista-perfis {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 13px;
+
+        width: 100%;
+        height: auto;
+
+        padding: 0px 10px;
+    }
+
+    .section-informacoes {
+        text-align: center;
+
+        line-height: 24px;  
+
+        border-bottom: 1px solid #eee;
+    }
+
+    .img-title {
+        height: 160px;
+    }
+
+    #descricao-jogo-selecionado {
+        font-size: 19px;
+    }
+
+    .botao-trailer {
+        margin: 50px 0px;
+
+        width: 140px;
+
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .modal iframe {
+        width: 460px;
+        height: 259px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .modal iframe {
+        width: 355px;
+        height: 200px;
+    }
+    
+}
+
+@media (max-width: 380px) {
+
+    .modal iframe {
+        width: 300px;
+        height: 169px;
+    }
+}
