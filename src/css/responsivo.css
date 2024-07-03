@@ -4,9 +4,9 @@
         width: 100%;
     }
     
-    .section-informacoes {
+    /* .section-informacoes {
         font-size: 18px;
-    }
+    } */
 }
 
 @media (max-width: 1120px) {
@@ -63,8 +63,6 @@
     .section-informacoes {
         text-align: center;
 
-        line-height: 24px;  
-
         border-bottom: 1px solid #eee;
     }
 
@@ -73,7 +71,7 @@
     }
 
     #descricao-jogo-selecionado {
-        font-size: 19px;
+        font-size: 1.3rem;
     }
 
     .botao-trailer {

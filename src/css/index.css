@@ -30,7 +30,7 @@
     top: 0;
     right: 0;
     content: "";
-    width: 50%;
+    width: 80%;
     height: 101%;
     background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))
 }
@@ -97,8 +97,8 @@
 
     color: #eee;
     font-weight: 500;
-    line-height: 20px;
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 1.5rem;
 }
 
 .img-title {
